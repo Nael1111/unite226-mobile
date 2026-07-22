@@ -2,7 +2,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../features/auth/controllers/auth_controller.dart';
+import '../../features/auth/controllers/auth_controller.dart';
 
 // Handler pour les messages reçus en background (top-level, hors classe)
 @pragma('vm:entry-point')

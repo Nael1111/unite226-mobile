@@ -32,6 +32,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '80911235759',
     projectId: 'unite226-app',
     storageBucket: 'unite226-app.firebasestorage.app',
-    bundleId: 'com.tonorganisation.appMessagerie226',
+    iosClientId: 'com.tonorganisation.appMessagerie226',
   );
 }
