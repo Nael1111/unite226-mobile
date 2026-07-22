@@ -28,7 +28,7 @@ dependencies:
 
   # Médias
   image_picker: ^1.1.2
-  record: ^5.2.0
+  record: ^6.2.1
   audioplayers: ^6.4.0
   video_player: ^2.9.3
   chewie: ^1.10.0
