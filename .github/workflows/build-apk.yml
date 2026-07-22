@@ -35,11 +35,11 @@ jobs:
         run: flutter build apk --release --no-tree-shake-icons
 
       - name: Check APK exists
-        run: ls -lh app_messagerie_226/build/outputs/flutter-apk/
+        run: find app_messagerie_226/build -name "*.apk" 2>/dev/null || echo "APK not found"
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: unite226-release-${{ github.run_number }}
-          path: app_messagerie_226/build/outputs/flutter-apk/app-release.apk
+          path: app_messagerie_226/build/**/*.apk
           retention-days: 30
